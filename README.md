@@ -2,7 +2,7 @@
 
 This repository presents an answer to the [Project: Binary Search Trees](https://www.theodinproject.com/lessons/javascript-linked-lists) task - to implement a binary search tree (BST) data structure using JavaScript.
 
-> [!WARNING]
+> [!NOTE]
 > This solution requires refinement, with some of the implemented functions being suboptimal.
 > 
 > For example, the `rebalance` function goes for a much easier approach - rebalancing the tree by creating a balanced tree using elements of the current one with in-order tree walk - its space complexity is $$O(n)$$ for storing an array of $$n$$ elements and creating a new tree. However, there are algorithms for rebalancing the BST in $$O(1)$$ space complexity and the same running time $$O(n)$$.
